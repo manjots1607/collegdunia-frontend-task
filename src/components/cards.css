@@ -1,0 +1,133 @@
+.card-wrapper{
+    min-height:377px;
+    width: 100%;
+    position: relative;
+    max-width:637px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.card{
+    min-height:377px;
+    width: 100%;
+    border:1px solid #f1f1f1;
+    border-radius:8px;
+    overflow: hidden;
+    
+    box-shadow: 0px 0px 30px #00000011;
+
+}
+
+.card .cover{
+    height:200px;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.card .cover .rating{
+    position: absolute;
+    top:30px;
+    right:8px;
+    padding:4px;
+    background-color:#f5a626;
+    color:white;
+    text-align: center;
+    border-radius:4px;
+    font-size:14px;
+    line-height: 16px;
+}
+.card .cover .rating .val{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .cover .b-row{
+    position: absolute;
+    bottom: 0;
+    color:white;
+    width:100%;
+    padding:4px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.b-row .tag{
+    background-color: white;
+    padding:6px;
+    border-radius:15px;
+    color:#444;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.promoTag{
+    position: absolute;
+    right:0;
+    top:-15px;
+    background-color: #68a7ff;
+    padding:5px 10px;
+    height:30px;
+    color: white;
+    text-align: left;
+    z-index: 100;
+}
+.promoTag::before{
+    content: "";
+    width:0;
+    height:0;
+    border: 15px solid #68a7ff;
+    position: absolute;
+    right:100%;
+    top:0;
+    border-left-color: transparent;
+    
+    
+}
+.card .body .main{
+    padding:18px 14px 10px 14px;
+}
+.card .main .left{
+    width:75%;
+}
+.card .main .right{
+    width:25%;
+}
+
+.body .heading h3{
+    font-size: 18.5px;
+    color: #444;
+
+}
+.card .body .discount{
+    background-color:#dd1c26;
+    color:white;
+    padding: 3px;
+    position: relative;
+    margin-left:15px;
+}
+.card .body .discount::before{
+    content: "";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    right:100%;
+    border:9.5px solid transparent;
+    border-right-color: #dd1c26;
+
+}
+
+.fees{
+    color:#dd1c26;
+    font-size:28px;
+    margin-top:8px;
+}
+
+.card .body .offer{
+    
+    padding: 8px 15px;
+    background-color: #ccf5e7;
+    border-radius: 0 14px 14px 0;
+}
