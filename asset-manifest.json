@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/collegdunia-frontend-task/static/css/main.93b64508.chunk.css",
+    "main.js": "/collegdunia-frontend-task/static/js/main.0b3c4ae5.chunk.js",
+    "main.js.map": "/collegdunia-frontend-task/static/js/main.0b3c4ae5.chunk.js.map",
+    "runtime-main.js": "/collegdunia-frontend-task/static/js/runtime-main.328ad97c.js",
+    "runtime-main.js.map": "/collegdunia-frontend-task/static/js/runtime-main.328ad97c.js.map",
+    "static/js/2.e126c676.chunk.js": "/collegdunia-frontend-task/static/js/2.e126c676.chunk.js",
+    "static/js/2.e126c676.chunk.js.map": "/collegdunia-frontend-task/static/js/2.e126c676.chunk.js.map",
+    "index.html": "/collegdunia-frontend-task/index.html",
+    "precache-manifest.fc4cca020aebfbb1398bc435f4701d19.js": "/collegdunia-frontend-task/precache-manifest.fc4cca020aebfbb1398bc435f4701d19.js",
+    "service-worker.js": "/collegdunia-frontend-task/service-worker.js",
+    "static/css/main.93b64508.chunk.css.map": "/collegdunia-frontend-task/static/css/main.93b64508.chunk.css.map",
+    "static/js/2.e126c676.chunk.js.LICENSE.txt": "/collegdunia-frontend-task/static/js/2.e126c676.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.328ad97c.js",
+    "static/js/2.e126c676.chunk.js",
+    "static/css/main.93b64508.chunk.css",
+    "static/js/main.0b3c4ae5.chunk.js"
+  ]
+}
